@@ -8,18 +8,18 @@ This annotation processor generates TypeScript definitions from Java classes ann
 
 ```xml
 
-<parent>
-    <artifactId>tsinterop-annotations</artifactId>
+<depndency>
+    <artifactId>jsinterop-ts-defs-annotations</artifactId>
     <groupId>com.vertispan.tsdefs</groupId>
     <version>HEAD-SNAPSHOT</version>
-</parent>
+</depndency>
 ```
 - Processor
 
 ```xml
 
 <depndency>
-    <artifactId>tsinterop-processor</artifactId>
+    <artifactId>jsinterop-ts-defs-processor</artifactId>
     <groupId>com.vertispan.tsdefs</groupId>
     <version>HEAD-SNAPSHOT</version>
 </depndency>
